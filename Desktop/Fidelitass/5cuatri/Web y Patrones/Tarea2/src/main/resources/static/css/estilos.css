@@ -1,0 +1,40 @@
+#contenido {
+    position: fixed;
+    top: 8%;
+    left: 10%;
+    height: 100%;
+    width: 80%;
+    background-color: cadetblue;
+    color: black;
+    overflow: scroll;
+}
+
+#piePagina {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 1.7%;
+    width: 100%;
+    background-color: darksalmon;
+    color: black;
+    text-align: center;
+}
+
+#mapas{
+    position: absolute;
+    top: 91;
+    left: 10;
+    height: 90%;
+    width: 40%;
+    background-color: #496D8D;
+    color: white;
+}
+#mapasimg{
+        position: absolute;
+    top: 91;
+    left: 780;
+    height: 90%;
+    width: 60%;
+    background-color: #496D8D;
+    color: white;
+}

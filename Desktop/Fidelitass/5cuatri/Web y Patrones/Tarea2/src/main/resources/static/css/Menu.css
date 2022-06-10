@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    padding: 80px 20px 0;
+}
+.header {
+    background-color: salmon;
+    height: 8%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.nav {
+    display: inline-flex;
+    justify-content: space-between;
+    max-width: 2000px;
+    margin: 0px;
+}
+.nav-link {
+    color: white;
+    text-decoration: aquamarine;
+}
+.logo {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0 30px;
+    line-height: 8vh;
+}
+.nav-menu {
+    display: flex;
+    margin-left: 15px;
+    list-style: none;
+}
+.nav-menu-item {
+    font-size: 15px;
+    margin: 2 8px;
+    line-height: 8vh;
+}
+.nav-menu-link {
+    padding: 6px 10px;
+    border-radius: 2px;
+}
+.nav-menu-link:hover {
+    background-color: darkgoldenrod;
+    transition: 0.35s;
+}
